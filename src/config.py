@@ -14,6 +14,8 @@ CHROMA_DIR = DATA_DIR / "chroma_db"
 PAGES_PATH = PROCESSED_DIR / "pages.json"
 VENTURES_PATH = PROCESSED_DIR / "ventures.json"
 BLOGS_PATH = PROCESSED_DIR / "blogs.json"
+PERSONAL_ALIGNMENT_PATH = PROCESSED_DIR / "personal_alignment.json"
+PERSONAL_PROFILE_PATH = DATA_DIR / "personal_profile.md"
 
 BASE_URL = "https://boldworldengineering.com/"
 ALLOWED_DOMAINS = {
@@ -56,4 +58,6 @@ REPORT_FILES = {
     "ventures": REPORTS_DIR / "venture_list.md",
     "blogs": REPORTS_DIR / "blog_insights.md",
     "thesis": REPORTS_DIR / "product_fit_and_thesis.md",
+    "alignment": REPORTS_DIR / "personal_venture_alignment.md",
+    "style_guide": REPORTS_DIR / "bwe_voice_style_guide.md",
 }

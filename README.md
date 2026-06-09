@@ -17,8 +17,11 @@ ollama pull nomic-embed-text
 
 python src/cli.py crawl
 python src/cli.py analyse
+python src/cli.py align
+python src/cli.py style-guide
 python src/cli.py build-kb
 python src/cli.py ask "What does Bold World Engineering do?"
+python src/cli.py ask "What product thesis fits BWE best?" --voice bwe
 streamlit run src/app.py
 ```
 
@@ -29,6 +32,9 @@ streamlit run src/app.py
 - Builds a local ChromaDB-backed knowledge base
 - Uses LlamaIndex + Ollama for grounded Q&A
 - Generates markdown research reports
+- Ranks ventures by personal alignment to a technical/product profile
+- Extracts a reusable BWE voice/style guide from blogs and case studies
+- Supports a BWE-style grounded answer mode
 - Serves a simple Streamlit dashboard for demos
 
 ## Architecture
@@ -40,11 +46,13 @@ streamlit run src/app.py
 3. `src/knowledge_base.py`
    Loads scraped content into a local Chroma vector store with LlamaIndex and Ollama embeddings.
 4. `src/analyst.py`
-   Produces research reports and grounded answers using the local knowledge base and local files.
+   Produces research reports, personal venture alignment, and grounded answers using the local knowledge base and local files.
 5. `src/app.py`
-   Streamlit dashboard for overview, ventures, blogs, reports, and Q&A.
-6. `src/cli.py`
-   Command entry point for `crawl`, `build-kb`, `analyse`, and `ask`.
+   Streamlit dashboard for overview, ventures, blogs, reports, personal venture fit, and BWE voice mode.
+6. `src/style_analyzer.py`
+   Extracts the observed BWE writing style into a local style guide and powers the BWE-style answer mode.
+7. `src/cli.py`
+   Command entry point for `crawl`, `analyse`, `align`, `style-guide`, `build-kb`, and `ask`.
 
 ## Folder Structure
 
@@ -59,6 +67,7 @@ bwe-venture-agent/
     chroma_db/
   src/
     app.py
+    style_analyzer.py
     cli.py
     crawler.py
     extractor.py
@@ -106,9 +115,13 @@ export BWE_OLLAMA_EMBED_MODEL=nomic-embed-text
 ```bash
 python src/cli.py crawl
 python src/cli.py analyse
+python src/cli.py align
+python src/cli.py style-guide
 python src/cli.py build-kb
 python src/cli.py ask "What does Bold World Engineering do?"
 python src/cli.py ask "What ventures are listed?"
+python src/cli.py ask "Which ventures align with me most?"
+python src/cli.py ask "What product thesis fits BWE best?" --voice bwe
 streamlit run src/app.py --server.address 127.0.0.1 --server.port 8501
 ```
 
@@ -124,9 +137,13 @@ If `llama3.1` is not installed locally, the app falls back to another installed 
 ```bash
 python src/cli.py crawl
 python src/cli.py analyse
+python src/cli.py align
+python src/cli.py style-guide
 python src/cli.py build-kb
 python src/cli.py ask "What does Bold World Engineering do?"
 python src/cli.py ask "What ventures are listed?"
+python src/cli.py ask "Which ventures align with me most?"
+python src/cli.py ask "What product thesis fits BWE best?" --voice bwe
 streamlit run src/app.py
 ```
 
@@ -134,13 +151,15 @@ streamlit run src/app.py
 
 The Streamlit dashboard includes:
 
-- `BWE Overview`
-- `Venture List`
-- `Blog Insights`
-- `Ask the Knowledge Base`
-- `Product Fit and Thesis`
+- `Overview`
+- `Ventures`
+- `Blog Intelligence`
+- `Ask Agent`
+- `My Venture Fit`
+- `Product Thesis`
+- `BWE Voice Mode`
 
-The Ask section loads the existing local knowledge-base logic and returns grounded answers with sources.
+The Ask section loads the existing local knowledge-base logic and returns grounded answers with sources. The BWE Voice Mode tab adds a second answer path that preserves grounding but rewrites the answer in a BWE-style venture-studio tone based on the extracted local style guide.
 
 Open locally at:
 
@@ -151,12 +170,16 @@ Open locally at:
 - Page data: `data/processed/pages.json`
 - Ventures: `data/processed/ventures.json`
 - Blogs: `data/processed/blogs.json`
+- Personal alignment data: `data/processed/personal_alignment.json`
+- Personal profile: `data/personal_profile.md`
 - Vector DB: `data/chroma_db/`
 - Reports:
   - `data/reports/bwe_overview.md`
   - `data/reports/venture_list.md`
   - `data/reports/blog_insights.md`
   - `data/reports/product_fit_and_thesis.md`
+  - `data/reports/personal_venture_alignment.md`
+  - `data/reports/bwe_voice_style_guide.md`
 
 ## Verified Generated Files
 
@@ -166,11 +189,14 @@ After a full successful run, the project generates:
 - `data/processed/pages.json`
 - `data/processed/ventures.json`
 - `data/processed/blogs.json`
+- `data/processed/personal_alignment.json`
 - `data/chroma_db/` local vector database files
 - `data/reports/bwe_overview.md`
 - `data/reports/venture_list.md`
 - `data/reports/blog_insights.md`
 - `data/reports/product_fit_and_thesis.md`
+- `data/reports/personal_venture_alignment.md`
+- `data/reports/bwe_voice_style_guide.md`
 
 ## Limitations
 
@@ -178,6 +204,8 @@ After a full successful run, the project generates:
 - If content is heavily client-rendered or hidden behind forms, it may be missed. This project mitigates that for BWE by also reading the public data backing the live website.
 - Venture and blog extraction are heuristic and only fill fields supported by the scraped text.
 - Q&A is limited to the scraped BWE content and intentionally refuses unclear answers.
+- Personal venture alignment is a user-profile analysis, not an official BWE ranking.
+- BWE voice mode changes presentation style, not the grounding source; it still relies on scraped content and local reports.
 - Ollama must be running locally for embeddings and answers.
 
 ## Ethical Scraping Note
@@ -200,12 +228,15 @@ Use this flow for HR, mentor, or internship demos:
 3. Show `Ventures` and filter by sector or product type.
 4. Show `Blog Intelligence` to demonstrate market/theme extraction.
 5. Spend most of the demo in `Ask Agent`.
-6. Finish with `Product Thesis` to show strategy output.
+6. Open `My Venture Fit` to show which ventures match your profile and what you could contribute.
+7. Finish with `BWE Voice Mode` or `Product Thesis` to show strategy output and voice-aware generation.
 
 Suggested questions:
 
 - `What does Bold World Engineering do?`
 - `What ventures are listed?`
+- `Which ventures align with me most?`
 - `Which venture looks most promising based on available content?`
 - `What sectors does BWE focus on?`
 - `What should BWE build next?`
+- `What product thesis fits BWE best?`

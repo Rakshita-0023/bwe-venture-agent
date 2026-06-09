@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import argparse
 
-from analyst import run_analysis, run_ask
+from analyst import run_alignment, run_analysis, run_ask
 from crawler import run_crawl
 from knowledge_base import build_knowledge_base
+from style_analyzer import generate_style_guide
 from utils import ensure_directories
 
 
@@ -15,9 +16,12 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser("crawl", help="Crawl BWE public website content")
     subparsers.add_parser("build-kb", help="Build local Chroma + LlamaIndex knowledge base")
     subparsers.add_parser("analyse", help="Extract structured insights and generate reports")
+    subparsers.add_parser("align", help="Rank BWE ventures by personal alignment and generate a report")
+    subparsers.add_parser("style-guide", help="Extract and generate the BWE voice/style guide")
 
     ask_parser = subparsers.add_parser("ask", help="Ask grounded questions over the local knowledge base")
     ask_parser.add_argument("question", type=str, help="Question to answer")
+    ask_parser.add_argument("--voice", choices=["normal", "bwe"], default="normal", help="Answer voice mode")
 
     return parser
 
@@ -32,8 +36,13 @@ def main() -> None:
         build_knowledge_base()
     elif args.command == "analyse":
         run_analysis()
+    elif args.command == "align":
+        run_alignment()
+    elif args.command == "style-guide":
+        generate_style_guide()
+        print("Saved BWE voice style guide report")
     elif args.command == "ask":
-        print(run_ask(args.question))
+        print(run_ask(args.question, voice=args.voice))
 
 
 if __name__ == "__main__":

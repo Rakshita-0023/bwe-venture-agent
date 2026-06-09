@@ -1,0 +1,2295 @@
+[
+  {
+    "venture_name": "Ritual",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS / Future of Work",
+    "alignment_score": 38,
+    "alignment_score_average": 4.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 4,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 5,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Ritual aligns because it sits at the intersection of AI/agentic systems and workflow automation. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Ritual execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Ritual easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Ritual."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Standard Operating Procedures (SOPs) often get lost in documents, lead to accountability gaps, and create manual overhead for managers who must constantly follow up on task completion. | ICP: Operations managers and team leads in industries with high rates of task execution and manual processes, such as retail, hospitality, and field services, struggling with SOP adherence and workflow efficiency. | Public evidence count: 3 blogs, 4 case studies, 17 related pages",
+    "source_url": "https://bwestudios.com/ventures/ritual",
+    "rank": 1
+  },
+  {
+    "venture_name": "Prysm",
+    "sector": "FinTech",
+    "product_type": "FinTech & AI",
+    "alignment_score": 38,
+    "alignment_score_average": 4.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 4,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 5,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Prysm aligns because it sits at the intersection of AI/agentic systems and workflow automation. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Prysm execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Prysm easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Prysm."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Venture capitalists often miss critical market signals and investment opportunities due to the manual effort required to monitor fragmented data across global markets. | ICP: Venture capital firms of all sizes seeking to leverage AI for improved deal sourcing, portfolio management, and data-driven investment decisions. | Public evidence count: 1 blogs, 1 case studies, 10 related pages",
+    "source_url": "https://bwestudios.com/ventures/prysm",
+    "rank": 2
+  },
+  {
+    "venture_name": "PLENTY",
+    "sector": "AI & Intelligence",
+    "product_type": "SaaS / FoodTech",
+    "alignment_score": 36,
+    "alignment_score_average": 4.5,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "PLENTY aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core PLENTY execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make PLENTY easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for PLENTY."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Restaurant owners in India struggle with manual stock tracking, wasteful procurement cycles, and the constant juggling of multiple suppliers and invoices. | ICP: Small to medium-sized restaurant owners in India who are seeking to streamline their supply chain management and reduce waste through an AI-powered, voice-first operating system. | Public evidence count: 2 blogs, 1 case studies, 12 related pages",
+    "source_url": "https://bwestudios.com/ventures/plenty",
+    "rank": 3
+  },
+  {
+    "venture_name": "Aura",
+    "sector": "AI & Intelligence",
+    "product_type": "AI & Fashion Tech",
+    "alignment_score": 36,
+    "alignment_score_average": 4.5,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Aura aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Aura execution loop.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Aura."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Most people only wear 20% of their wardrobe and waste time every morning deciding what to wear despite having thousands of dollars worth of clothes. | ICP: Fashion-conscious individuals who value efficiency and personalized style, and own a significant wardrobe they struggle to utilize effectively. | Public evidence count: 3 blogs, 5 case studies, 35 related pages",
+    "source_url": "https://bwestudios.com/ventures/aura",
+    "rank": 4
+  },
+  {
+    "venture_name": "Strata",
+    "sector": "AI & Intelligence",
+    "product_type": "SaaS & Productivity",
+    "alignment_score": 36,
+    "alignment_score_average": 4.5,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 4,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Strata aligns because it sits at the intersection of AI/agentic systems and workflow automation. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Strata execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Strata easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Strata."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Teams struggle with messy, unstructured data and the time-consuming manual effort required to map CSVs, build automations, and maintain database hygiene. | ICP: Small to medium-sized businesses struggling with data organization and workflow automation for their cross-functional teams who need a no-code, AI-powered solution. | Public evidence count: 1 blogs, 1 case studies, 7 related pages",
+    "source_url": "https://bwestudios.com/ventures/strata",
+    "rank": 5
+  },
+  {
+    "venture_name": "Closr",
+    "sector": "AI & Intelligence",
+    "product_type": "SaaS / AI Sales Automation",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Closr aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Closr execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Closr easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Closr."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Founders with multiple products often become the bottleneck in their own sales process, leading to decayed leads and missed revenue because hiring dedicated SDRs for every product is prohibitively expensive. | ICP: Multi-product founders and agencies looking to automate their sales funnel and scale revenue across multiple offerings without the expense of hiring dedicated sales teams. | Public evidence count: 11 blogs, 1 case studies, 27 related pages",
+    "source_url": "https://bwestudios.com/ventures/closr",
+    "rank": 6
+  },
+  {
+    "venture_name": "FLAER",
+    "sector": "FinTech",
+    "product_type": "FinTech",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "FLAER aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core FLAER execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make FLAER easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for FLAER."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Most retail traders lose money due to emotional decision-making, overtrading, and a lack of disciplined risk management. | ICP: Indian retail traders actively participating in the equity market who struggle with emotional trading and risk management, seeking an automated solution to improve their discipline and capital preservation. | Public evidence count: 2 blogs, 1 case studies, 11 related pages",
+    "source_url": "https://bwestudios.com/ventures/flaer",
+    "rank": 7
+  },
+  {
+    "venture_name": "MANIFEST",
+    "sector": "SaaS & Operations",
+    "product_type": "Supply Chain & Logistics Tech",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "MANIFEST aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core MANIFEST execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make MANIFEST easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make MANIFEST more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Global trade is plagued by manual processes, siloed data across multiple platforms, and poor visibility, leading to frequent delays and data loss. | ICP: Global trade enterprises struggling with fragmented logistics data, manual processes, and a lack of real-time visibility who are seeking to automate compliance, enhance tracking, and proactively manage supply chain risks through an AI-powered operating system. | Public evidence count: 1 blogs, 2 case studies, 13 related pages",
+    "source_url": "https://bwestudios.com/ventures/manifest",
+    "rank": 8
+  },
+  {
+    "venture_name": "REOS",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "REOS aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core REOS execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make REOS easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make REOS more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Real estate professionals spend excessive hours manually creating marketing materials like brochures, posters, and videos for every new listing. | ICP: Indian real estate agents and developers seeking to automate marketing collateral creation and enhance lead generation through AI-powered tools. | Public evidence count: 3 blogs, 1 case studies, 8 related pages",
+    "source_url": "https://bwestudios.com/ventures/reos",
+    "rank": 9
+  },
+  {
+    "venture_name": "SharkFund",
+    "sector": "FinTech",
+    "product_type": "FinTech/SaaS",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "SharkFund aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design",
+      "vertical SaaS positioning"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core SharkFund execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make SharkFund easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for SharkFund."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Founders often enter high-stakes fundraising pitches without understanding their true market value or how specific investors will perceive their unit economics. | ICP: Startup founders in India seeking data-driven insights and negotiation support for their fundraising pitches on Shark Tank India. | Public evidence count: 3 blogs, 1 case studies, 8 related pages",
+    "source_url": "https://bwestudios.com/ventures/sharkfund",
+    "rank": 10
+  },
+  {
+    "venture_name": "Vidhi",
+    "sector": "LegalTech",
+    "product_type": "LegalTech SaaS",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Vidhi aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "legal diligence workflows",
+      "regulatory data sources",
+      "evidence-backed audit trails",
+      "vertical SaaS positioning"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Vidhi execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Vidhi easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Vidhi."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Indian lawyers often struggle with manual case tracking, missing critical court dates, and inefficient document drafting processes using generic tools. | ICP: Indian litigators who are seeking to automate case management, streamline legal drafting, and improve research efficiency through an AI-powered, integrated platform. | Public evidence count: 4 blogs, 1 case studies, 11 related pages",
+    "source_url": "https://bwestudios.com/ventures/vidhi",
+    "rank": 11
+  },
+  {
+    "venture_name": "Pact",
+    "sector": "HealthTech",
+    "product_type": "Health & Wellness",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Pact aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "clinical workflow constraints",
+      "health-data UX",
+      "safety-sensitive automation",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Pact execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Pact easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Pact."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Traditional habit trackers lack real consequences, leading to a cycle of broken commitments and lost motivation when there is no penalty for quitting. | ICP: Individuals motivated by financial incentives and social accountability who are looking for a more robust and effective way to build and maintain healthy habits, particularly fitness commitments. | Public evidence count: 8 blogs, 4 case studies, 24 related pages",
+    "source_url": "https://bwestudios.com/ventures/pact",
+    "rank": 12
+  },
+  {
+    "venture_name": "PayReady",
+    "sector": "FinTech",
+    "product_type": "FinTech / SaaS",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "PayReady aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design",
+      "vertical SaaS positioning"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core PayReady execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make PayReady easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make PayReady more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Finance teams in India face manual, time-consuming vendor onboarding processes involving endless follow-ups, delayed payments, and high compliance risks due to manual verification errors. | ICP: Mid-to-large enterprises in India struggling with manual, inefficient, and high-risk vendor onboarding processes, seeking to automate compliance and accelerate vendor payment readiness. | Public evidence count: 9 blogs, 1 case studies, 8 related pages",
+    "source_url": "https://bwestudios.com/ventures/payready",
+    "rank": 13
+  },
+  {
+    "venture_name": "KYROS",
+    "sector": "HealthTech",
+    "product_type": "Health & Wellness",
+    "alignment_score": 35,
+    "alignment_score_average": 4.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "KYROS aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "clinical workflow constraints",
+      "health-data UX",
+      "safety-sensitive automation",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core KYROS execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make KYROS easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for KYROS."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Individuals often struggle to manually shift their mental state, leading to issues with productivity, stress management, and sleep quality. | ICP: Professionals and creatives aged 25-55 experiencing cognitive overload and seeking to optimize their mental performance, focus, and relaxation through data-driven biofeedback and AI-guided interventions. | Public evidence count: 1 blogs, 1 case studies, 7 related pages",
+    "source_url": "https://bwestudios.com/ventures/kyros",
+    "rank": 14
+  },
+  {
+    "venture_name": "bh.ai",
+    "sector": "AI & Intelligence",
+    "product_type": "Entertainment & AI",
+    "alignment_score": 34,
+    "alignment_score_average": 4.25,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "bh.ai aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core bh.ai execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make bh.ai easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for bh.ai."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Fans of Indian pop culture often struggle to find and share specific iconic celebrity moments or 'wisdom' in a high-quality, shareable format. | ICP: Fans of Indian pop culture and Salman Khan, particularly active on social media, seeking to engage with and share iconic celebrity moments and 'wisdom' in a fun, personalized format. | Public evidence count: 2 blogs, 1 case studies, 7 related pages",
+    "source_url": "https://bwestudios.com/ventures/bh-ai",
+    "rank": 15
+  },
+  {
+    "venture_name": "VaniOS",
+    "sector": "HealthTech",
+    "product_type": "Health & Wellness",
+    "alignment_score": 34,
+    "alignment_score_average": 4.25,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "VaniOS aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "clinical workflow constraints",
+      "health-data UX",
+      "safety-sensitive automation",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core VaniOS execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make VaniOS easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for VaniOS."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Doctors in India face a massive administrative burden, often spending late hours manually writing prescriptions, SOAP notes, and insurance claims while managing patients who frequently switch between multiple languages during consultations. | ICP: Mid-to-large private healthcare clinics and hospitals in India utilizing a physician-led model, experiencing significant administrative overhead due to multilingual patient consultations. | Public evidence count: 14 blogs, 1 case studies, 3 related pages",
+    "source_url": "https://bwestudios.com/ventures/vanios",
+    "rank": 16
+  },
+  {
+    "venture_name": "Council",
+    "sector": "AI & Intelligence",
+    "product_type": "AI & Machine Learning",
+    "alignment_score": 34,
+    "alignment_score_average": 4.25,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 3,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Council aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Council execution loop.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Council."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Single-model AI outputs often suffer from hallucinations, inherent biases, and blind spots that make them unreliable for critical business decisions. | ICP: Knowledge-intensive businesses and enterprise teams requiring high-accuracy, reliable, and validated AI-generated insights for critical decision-making. | Public evidence count: 7 blogs, 1 case studies, 8 related pages",
+    "source_url": "https://bwestudios.com/ventures/council",
+    "rank": 17
+  },
+  {
+    "venture_name": "CARTA",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS / FoodTech",
+    "alignment_score": 34,
+    "alignment_score_average": 4.25,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 4,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "CARTA aligns because it sits at the intersection of AI/agentic systems and workflow automation. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core CARTA execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make CARTA easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for CARTA."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Food businesses often struggle with fragmented tools, stitching together separate QR menu apps, CRMs, proposal builders, and manual analytics dashboards. | ICP: Restaurants and caterers in India seeking a unified software solution to streamline digital menus, sales proposals, and operational analytics. | Public evidence count: 1 blogs, 1 case studies, 3 related pages",
+    "source_url": "https://bwestudios.com/ventures/carta",
+    "rank": 18
+  },
+  {
+    "venture_name": "WaBOS",
+    "sector": "AI & Intelligence",
+    "product_type": "SaaS / AI Operations",
+    "alignment_score": 34,
+    "alignment_score_average": 4.25,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "WaBOS aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core WaBOS execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make WaBOS easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for WaBOS."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Small businesses lose revenue due to delayed responses to customer inquiries, the high cost of manual staffing for messaging, and the inability to handle high-volume queries 24/7. | ICP: Small to medium-sized local businesses and service providers struggling with timely customer communication and inefficient manual sales, booking, and support processes on WhatsApp. | Public evidence count: 1 blogs, 1 case studies, 11 related pages",
+    "source_url": "https://bwestudios.com/ventures/wabos",
+    "rank": 19
+  },
+  {
+    "venture_name": "Solo",
+    "sector": "FinTech",
+    "product_type": "FinTech",
+    "alignment_score": 34,
+    "alignment_score_average": 4.25,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Solo aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Solo execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Solo easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Solo more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Solopreneurs struggle with fragmented financial tools, slow invoice payments, and the lack of professional financial guidance, often leading to manual admin overhead and tax-season panic. | ICP: AI-powered financial platform for solopreneurs and freelancers needing automated invoicing, tax management, and AI-driven financial guidance. | Public evidence count: 1 blogs, 1 case studies, 27 related pages",
+    "source_url": "https://bwestudios.com/ventures/solo",
+    "rank": 20
+  },
+  {
+    "venture_name": "Platos",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Platos aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Platos execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Platos easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Platos more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Restaurant owners often face operational exhaustion, spending late hours on manual tasks like menu updates, graphic design, and marketing instead of focusing on their kitchen. | ICP: The ideal customer is an independent restaurant owner in India who is overwhelmed by the administrative and marketing demands of running their business, leading to time away from core culinary operations. | Public evidence count: 3 blogs, 1 case studies, 4 related pages",
+    "source_url": "https://bwestudios.com/ventures/platos",
+    "rank": 21
+  },
+  {
+    "venture_name": "Setu",
+    "sector": "LegalTech",
+    "product_type": "LegalTech / SaaS",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Setu aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "legal diligence workflows",
+      "regulatory data sources",
+      "evidence-backed audit trails",
+      "vertical SaaS positioning"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Setu execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Setu easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Setu more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: India's legal system faces significant language barriers, where complex legal terminology in English often prevents accessibility and compliance in local court proceedings. | ICP: Indian law firms, legal departments within corporations, and government legal bodies operating in India that require accurate and statutory compliant translation of legal documents between English and Hindi for court proceedings. | Public evidence count: 1 blogs, 2 case studies, 11 related pages",
+    "source_url": "https://bwestudios.com/ventures/setu",
+    "rank": 22
+  },
+  {
+    "venture_name": "SIGNAL",
+    "sector": "AI & Intelligence",
+    "product_type": "Other",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "SIGNAL aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core SIGNAL execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make SIGNAL easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make SIGNAL more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: A high percentage (87%) of viral stories contain unverified claims, indicating a significant verification problem in the news landscape. | ICP: Media organizations, investigative journalists, and fact-checking agencies seeking to rapidly and reliably verify the accuracy of news content at scale. | Public evidence count: 2 blogs, 7 case studies, 32 related pages",
+    "source_url": "https://bwestudios.com/ventures/signal",
+    "rank": 23
+  },
+  {
+    "venture_name": "Beat",
+    "sector": "HealthTech",
+    "product_type": "Health & Wellness",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Beat aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "clinical workflow constraints",
+      "health-data UX",
+      "safety-sensitive automation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Beat execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Beat easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Beat."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Indian families living apart struggle to monitor the health of aging parents, leading to anxiety, inconsistent vital tracking, and missed medical insights. | ICP: Indian adult children concerned about the remote health and metabolic well-being of their aging parents. | Public evidence count: 6 blogs, 2 case studies, 12 related pages",
+    "source_url": "https://bwestudios.com/ventures/beat",
+    "rank": 24
+  },
+  {
+    "venture_name": "Kuro",
+    "sector": "HealthTech",
+    "product_type": "Health & Wellness",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 3,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Kuro aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "Docker"
+    ],
+    "what_i_can_learn": [
+      "clinical workflow constraints",
+      "health-data UX",
+      "safety-sensitive automation",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Kuro execution loop.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Kuro."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Manual fitness tracking is high-friction, leading to inconsistent logging, missed protein targets, and broken streaks. | ICP: High-performance athletes and fitness enthusiasts who seek to optimize their training and nutrition through seamless, AI-powered tracking and personalized guidance. | Public evidence count: 2 blogs, 1 case studies, 13 related pages",
+    "source_url": "https://bwestudios.com/ventures/kuro",
+    "rank": 25
+  },
+  {
+    "venture_name": "Haqiq / \u062d\u0642\u064a\u0642\u0629",
+    "sector": "AI & Intelligence",
+    "product_type": "AI & Media Tech",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 5,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Haqiq / \u062d\u0642\u064a\u0642\u0629 aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Haqiq / \u062d\u0642\u064a\u0642\u0629 execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Haqiq / \u062d\u0642\u064a\u0642\u0629 easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Haqiq / \u062d\u0642\u064a\u0642\u0629 more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Rumors and misinformation spread rapidly across the Middle East, often outpacing the ability of newsrooms and professionals to verify them using static AI tools or manual searches. | ICP: Journalists, news organizations, and fact-checking initiatives operating within or focused on the Arab world who require rapid, reliable, and evidence-based verification of real-time information, claims, and media. | Public evidence count: 1 blogs, 1 case studies, 2 related pages",
+    "source_url": "https://bwestudios.com/ventures/haqiq",
+    "rank": 26
+  },
+  {
+    "venture_name": "RIVAL",
+    "sector": "AI & Intelligence",
+    "product_type": "AI & SaaS",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "RIVAL aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core RIVAL execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make RIVAL easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for RIVAL."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Companies often lose market share because they react too slowly to competitor moves due to manual, fragmented, and delayed intelligence gathering. | ICP: Enterprise-level companies in highly competitive markets, such as technology, retail, and financial services, who require real-time competitive intelligence and automated strategic response capabilities. | Public evidence count: 1 blogs, 1 case studies, 13 related pages",
+    "source_url": "https://bwestudios.com/ventures/rival",
+    "rank": 27
+  },
+  {
+    "venture_name": "Dypos",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 4,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "Dypos aligns because it sits at the intersection of AI/agentic systems and workflow automation. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Dypos execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Dypos easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Dypos more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Indian enterprises face fragmented data flows across digital and physical channels, making it nearly impossible to maintain manual compliance with the Digital Personal Data Protection (DPDP) Act. | ICP: Indian enterprises of all sizes struggling with the complexities and manual burden of complying with the DPDP Act across their diverse digital and physical data touchpoints. | Public evidence count: 0 blogs, 1 case studies, 9 related pages",
+    "source_url": "https://bwestudios.com/ventures/dypos",
+    "rank": 28
+  },
+  {
+    "venture_name": "ORBIT",
+    "sector": "FinTech",
+    "product_type": "FinTech & SaaS",
+    "alignment_score": 33,
+    "alignment_score_average": 4.12,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "ORBIT aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design",
+      "vertical SaaS positioning"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core ORBIT execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make ORBIT easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make ORBIT more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Indian SMBs face heavy penalties and audit risks due to manual tracking, calculation errors, and missed tax deadlines across fragmented communication channels like WhatsApp and email. | ICP: Indian Small and Medium-sized Businesses (SMBs) struggling with manual, error-prone, and time-consuming GST, TDS, and ROC compliance, leading to potential penalties and audit risks. | Public evidence count: 0 blogs, 1 case studies, 24 related pages",
+    "source_url": "https://bwestudios.com/ventures/orbit",
+    "rank": 29
+  },
+  {
+    "venture_name": "Memo",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Memo aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Memo execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Memo easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Memo."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Founders often waste hours manually collecting metrics from various sources, leading to a \"Sunday night scramble\" before board meetings and a lack of clarity on business health. | ICP: Early-stage to growth-stage B2B SaaS founders of companies with 5-50 employees who need to efficiently track and report on key performance indicators to stakeholders. | Public evidence count: 3 blogs, 4 case studies, 26 related pages",
+    "source_url": "https://bwestudios.com/ventures/memo",
+    "rank": 30
+  },
+  {
+    "venture_name": "Sahi",
+    "sector": "Consumer & Lifestyle",
+    "product_type": "Real Estate Tech / AI",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Sahi aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "venture discovery",
+      "ICP validation",
+      "fast product iteration"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Sahi execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Sahi easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Sahi more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: The real estate market often lacks transparency and speed when it comes to verifying property details and legal standing, leading to risks for buyers. | ICP: Real estate developers, legal firms, and financial institutions seeking to streamline and enhance the accuracy of their property verification processes. | Public evidence count: 2 blogs, 1 case studies, 6 related pages",
+    "source_url": "https://bwestudios.com/ventures/sahi",
+    "rank": 31
+  },
+  {
+    "venture_name": "RoastMyCV",
+    "sector": "Consumer & Lifestyle",
+    "product_type": "GenAI & Productivity",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 3,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "RoastMyCV aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core RoastMyCV execution loop.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make RoastMyCV more explainable and production-ready.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for RoastMyCV."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Job seekers often receive generic feedback or total silence from recruiters, leaving them unaware of obvious red flags or formatting errors in their resumes. | ICP: Job seekers who need fast, direct, and actionable feedback on their resumes to improve their chances of getting hired. | Public evidence count: 5 blogs, 1 case studies, 11 related pages",
+    "source_url": "https://bwestudios.com/ventures/roastmycv",
+    "rank": 32
+  },
+  {
+    "venture_name": "Argus",
+    "sector": "LegalTech",
+    "product_type": "RegTech / LegalTech",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Argus aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "legal diligence workflows",
+      "regulatory data sources",
+      "evidence-backed audit trails",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Argus execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Argus easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Argus more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Traditional background checks and due diligence are slow, manual, and often lack depth or verification against real-time legal and regulatory databases. | ICP: Investment firms and law firms requiring rapid, automated, and verifiable legal due diligence for pre-investment and litigation purposes, particularly those operating within or dealing with Indian legal and regulatory frameworks. | Public evidence count: 1 blogs, 1 case studies, 3 related pages",
+    "source_url": "https://bwestudios.com/ventures/argus",
+    "rank": 33
+  },
+  {
+    "venture_name": "HAVEN",
+    "sector": "SaaS & Operations",
+    "product_type": "PropTech & Co-Living",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 5,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "HAVEN aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core HAVEN execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make HAVEN easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make HAVEN more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Medical students often face distracting living environments, poor maintenance, and administrative friction in traditional student housing which can hinder their academic performance. | ICP: Co-living operators targeting niche professional student markets who require automated property management and enhanced resident experience. | Public evidence count: 1 blogs, 1 case studies, 18 related pages",
+    "source_url": "https://bwestudios.com/ventures/haven",
+    "rank": 34
+  },
+  {
+    "venture_name": "Sentinel",
+    "sector": "FinTech",
+    "product_type": "FinTech",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Sentinel aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Sentinel execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Sentinel easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Sentinel more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Enterprises lose millions annually due to duplicate payments, timing anomalies, and vendor overcharges that manual accounting and spreadsheets fail to detect. | ICP: Mid-to-large Indian enterprises in sectors with high transaction volumes and complex vendor relationships seeking to significantly reduce financial leakage through automated reconciliation. | Public evidence count: 0 blogs, 2 case studies, 11 related pages",
+    "source_url": "https://bwestudios.com/ventures/sentinel",
+    "rank": 35
+  },
+  {
+    "venture_name": "Wild Minds",
+    "sector": "Consumer & Lifestyle",
+    "product_type": "EdTech & Generative AI",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Wild Minds aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Wild Minds execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Wild Minds easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Wild Minds."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Children often have vast imaginations but lack the technical writing or artistic skills to structure and visualize their ideas into complete, professional-looking stories. | ICP: Parents or guardians of children aged 6-14 seeking engaging, creative educational tools that foster imagination, storytelling, and literacy skills through AI-powered personalized content creation. | Public evidence count: 1 blogs, 1 case studies, 8 related pages",
+    "source_url": "https://bwestudios.com/ventures/wild-minds",
+    "rank": 36
+  },
+  {
+    "venture_name": "Muse",
+    "sector": "Consumer & Lifestyle",
+    "product_type": "Consumer Tech / AI Services",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Muse aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Muse execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Muse easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Muse more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Planning Indian weddings is often a chaotic process plagued by fragmented communication, Budget overruns, vendor trust issues, and the complexity of managing diverse cultural rituals. | ICP: Engaged couples planning a large, culturally diverse Indian wedding who are seeking a streamlined, transparent, and collaborative platform to manage complex logistics, vendor relationships, and family input. | Public evidence count: 1 blogs, 1 case studies, 7 related pages",
+    "source_url": "https://bwestudios.com/ventures/muse",
+    "rank": 37
+  },
+  {
+    "venture_name": "BLAZE",
+    "sector": "AI & Intelligence",
+    "product_type": "SaaS / Marketing Tech",
+    "alignment_score": 32,
+    "alignment_score_average": 4.0,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "BLAZE aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core BLAZE execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make BLAZE easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for BLAZE."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: D2C brands often struggle with the manual effort, high costs, and time required to create high-quality, platform-specific marketing content and captions. | ICP: Small to medium-sized Indian Direct-to-Consumer (D2C) e-commerce businesses seeking to efficiently generate and distribute AI-powered marketing campaigns across social media and messaging platforms. | Public evidence count: 0 blogs, 1 case studies, 8 related pages",
+    "source_url": "https://bwestudios.com/ventures/blaze",
+    "rank": 38
+  },
+  {
+    "venture_name": "Suite",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS / AI Operations",
+    "alignment_score": 31,
+    "alignment_score_average": 3.88,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "Suite aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Suite execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Suite easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Suite."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Founders often lack the budget for high-level executives, leading to decision fatigue, stalled progress, and administrative bottlenecks when trying to handle marketing, finance, and HR alone. | ICP: Early-stage startup founders who require expert strategic and operational guidance in marketing, finance, and HR but lack the capital to hire full-time, high-level executives. | Public evidence count: 2 blogs, 4 case studies, 28 related pages",
+    "source_url": "https://bwestudios.com/ventures/suite",
+    "rank": 39
+  },
+  {
+    "venture_name": "LGCY",
+    "sector": "FinTech",
+    "product_type": "FinTech",
+    "alignment_score": 31,
+    "alignment_score_average": 3.88,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 3,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 3,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "LGCY aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core LGCY execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make LGCY easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for LGCY."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: India has over \u20b93.2 lakh crore in unclaimed assets due to poor nomination records, scattered financial data, and the lack of formal legal wills, often leaving families in years of legal limbo. | ICP: Indian families seeking to proactively manage and secure their financial legacy through organized estate planning and digital will creation. | Public evidence count: 3 blogs, 1 case studies, 12 related pages",
+    "source_url": "https://bwestudios.com/ventures/lgcy",
+    "rank": 40
+  },
+  {
+    "venture_name": "HIROS",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS / HRTech",
+    "alignment_score": 31,
+    "alignment_score_average": 3.88,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "HIROS aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core HIROS execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make HIROS easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make HIROS more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: HR departments are often overwhelmed by manual administrative tasks, compliance bottlenecks, and chaotic onboarding processes that distract from strategic growth. | ICP: Mid-to-large sized businesses in India experiencing significant HR administrative overhead and looking to automate their HR operations for increased efficiency and compliance. | Public evidence count: 1 blogs, 1 case studies, 10 related pages",
+    "source_url": "https://bwestudios.com/ventures/hiros",
+    "rank": 41
+  },
+  {
+    "venture_name": "Praise",
+    "sector": "SaaS & Operations",
+    "product_type": "Marketing Technology (MarTech) / SaaS",
+    "alignment_score": 31,
+    "alignment_score_average": 3.88,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Praise aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Praise execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Praise easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Praise."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Valuable client testimonials and reviews often sit dormant in folders or emails, acting as wasted assets because companies lack the time or tools to repurpose them into consistent social content. | ICP: Marketing managers at B2B SaaS companies responsible for social media content creation and customer advocacy who are seeking efficient ways to leverage client testimonials. | Public evidence count: 1 blogs, 1 case studies, 9 related pages",
+    "source_url": "https://bwestudios.com/ventures/praise",
+    "rank": 42
+  },
+  {
+    "venture_name": "Brivo",
+    "sector": "LegalTech",
+    "product_type": "LegalTech",
+    "alignment_score": 31,
+    "alignment_score_average": 3.88,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "Brivo aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "legal diligence workflows",
+      "regulatory data sources",
+      "evidence-backed audit trails",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Brivo execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Brivo easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Brivo."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: The traditional legal system in India is often opaque, lacks pricing transparency, and makes it difficult for clients to find the right specialized advocate quickly. | ICP: Individuals and small to medium businesses in India seeking efficient, transparent, and AI-augmented access to verified legal professionals for simplified case discovery and management. | Public evidence count: 0 blogs, 1 case studies, 9 related pages",
+    "source_url": "https://bwestudios.com/ventures/brivo",
+    "rank": 43
+  },
+  {
+    "venture_name": "MindYard",
+    "sector": "HealthTech",
+    "product_type": "Health & Wellness",
+    "alignment_score": 31,
+    "alignment_score_average": 3.88,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "MindYard aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "clinical workflow constraints",
+      "health-data UX",
+      "safety-sensitive automation",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core MindYard execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make MindYard easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for MindYard."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Traditional talk therapy can be overwhelming or inaccessible for introverts and neurodivergent individuals who struggle to articulate complex emotions through words alone. | ICP: Neurodivergent and creative individuals seeking alternative, sensory-safe methods for emotional processing and mood management. | Public evidence count: 0 blogs, 1 case studies, 10 related pages",
+    "source_url": "https://bwestudios.com/ventures/mindyard",
+    "rank": 44
+  },
+  {
+    "venture_name": "BREAKER",
+    "sector": "Consumer & Lifestyle",
+    "product_type": "Software Development & QA",
+    "alignment_score": 30,
+    "alignment_score_average": 3.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 3,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 3,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 5
+    },
+    "why_it_aligns_with_me": "BREAKER aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "venture discovery",
+      "ICP validation",
+      "fast product iteration"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core BREAKER execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make BREAKER easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for BREAKER."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Traditional software testing is often tedious for developers and lacks the scale needed to catch critical bugs before release. | ICP: Software development companies and product managers who are looking to improve their QA processes by leveraging a large, incentivized community of testers to identify bugs more efficiently. | Public evidence count: 2 blogs, 1 case studies, 6 related pages",
+    "source_url": "https://bwestudios.com/ventures/breaker",
+    "rank": 45
+  },
+  {
+    "venture_name": "BAAB (\u0628\u0627\u0628)",
+    "sector": "SaaS & Operations",
+    "product_type": "PropTech & SaaS",
+    "alignment_score": 30,
+    "alignment_score_average": 3.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "BAAB (\u0628\u0627\u0628) aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core BAAB (\u0628\u0627\u0628) execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make BAAB (\u0628\u0627\u0628) easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make BAAB (\u0628\u0627\u0628) more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: The Omani real estate market suffers from unverified listings, duplicate property entries, and inflated pricing, creating a lack of trust for renters and buyers. | ICP: Property owners and real estate agencies in Oman seeking a trustworthy and efficient platform for listing and managing properties, while renters and buyers are looking for verified listings and AI-powered search capabilities. | Public evidence count: 1 blogs, 1 case studies, 3 related pages",
+    "source_url": "https://bwestudios.com/ventures/baab",
+    "rank": 46
+  },
+  {
+    "venture_name": "CARMA",
+    "sector": "SaaS & Operations",
+    "product_type": "AutoTech & SaaS",
+    "alignment_score": 30,
+    "alignment_score_average": 3.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "CARMA aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core CARMA execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make CARMA easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for CARMA."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: The average Indian car owner loses approximately \u20b947,000 annually due to invisible costs such as overcharged service fees, poor fuel efficiency, and avoidable fines. | ICP: Indian car owners seeking to reduce ownership costs through proactive management and AI-driven insights. | Public evidence count: 1 blogs, 1 case studies, 4 related pages",
+    "source_url": "https://bwestudios.com/ventures/carma",
+    "rank": 47
+  },
+  {
+    "venture_name": "JetPlannr",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS / Event Tech",
+    "alignment_score": 30,
+    "alignment_score_average": 3.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "JetPlannr aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core JetPlannr execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make JetPlannr easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for JetPlannr."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Traditional event planning is a time-consuming, fragmented process that often takes weeks of manual coordination and budgeting. | ICP: Event planners, marketing professionals, or individuals organizing personal events who need to streamline the planning process and save significant time and effort. | Public evidence count: 1 blogs, 1 case studies, 6 related pages",
+    "source_url": "https://bwestudios.com/ventures/jetplannr",
+    "rank": 48
+  },
+  {
+    "venture_name": "PR13",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS",
+    "alignment_score": 30,
+    "alignment_score_average": 3.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "PR13 aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core PR13 execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make PR13 easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for PR13."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Public figures often discover reputation-damaging narratives only after they have gone viral, leaving them trailing behind a crisis with no immediate plan of action. | ICP: High-profile individuals like founders, celebrities, and politicians who require proactive, AI-driven protection against reputation-damaging online threats and rapid crisis response. | Public evidence count: 0 blogs, 1 case studies, 5 related pages",
+    "source_url": "https://bwestudios.com/ventures/pr13",
+    "rank": 49
+  },
+  {
+    "venture_name": "Regos",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS",
+    "alignment_score": 30,
+    "alignment_score_average": 3.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 3,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "Regos aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Regos execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make Regos easier to ship and test.",
+      "Create evidence pipelines, reporting views, or trust-layer UX that make Regos more explainable and production-ready."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Indian businesses struggle to keep up with the high volume of rapid changes across multiple regulators, often leading to non-compliance risks and manual, error-prone monitoring. | ICP: Indian businesses, particularly those operating in regulated sectors, seeking to automate their compliance monitoring and reduce the risk of non-compliance through AI-powered insights and actionable documentation. | Public evidence count: 0 blogs, 1 case studies, 3 related pages",
+    "source_url": "https://bwestudios.com/ventures/regos",
+    "rank": 50
+  },
+  {
+    "venture_name": "SCOUT",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS / Marketing Technology",
+    "alignment_score": 30,
+    "alignment_score_average": 3.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 4,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "SCOUT aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core SCOUT execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make SCOUT easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for SCOUT."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Brands lose billions annually to influencer fraud, including fake followers, engagement pods, and artificial activity that drains marketing budgets. | ICP: Marketing departments within mid-to-large sized companies that engage in influencer marketing campaigns and are seeking to protect their advertising budgets from fraudulent activity. | Public evidence count: 0 blogs, 1 case studies, 5 related pages",
+    "source_url": "https://bwestudios.com/ventures/scout",
+    "rank": 51
+  },
+  {
+    "venture_name": "SUTRA",
+    "sector": "SaaS & Operations",
+    "product_type": "SaaS / Personal Productivity",
+    "alignment_score": 30,
+    "alignment_score_average": 3.75,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 4,
+      "full_stack_product_building_relevance": 4,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 4,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "SUTRA aligns because it sits at the intersection of AI/agentic systems and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "React"
+    ],
+    "what_i_can_learn": [
+      "vertical SaaS positioning",
+      "operational workflow design",
+      "AI product evaluation",
+      "agent reliability"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core SUTRA execution loop.",
+      "Build or refine internal dashboards, APIs, and operator tooling that make SUTRA easier to ship and test.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for SUTRA."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Most business relationships die within 72 hours of the initial meeting because people fail to follow up effectively, leading to lost opportunities and unrealized professional value. | ICP: Sales professionals and business developers in fast-paced industries who regularly attend networking events and struggle to efficiently manage and nurture new professional connections. | Public evidence count: 0 blogs, 1 case studies, 4 related pages",
+    "source_url": "https://bwestudios.com/ventures/sutra",
+    "rank": 52
+  },
+  {
+    "venture_name": "Kosh",
+    "sector": "FinTech",
+    "product_type": "FinTech",
+    "alignment_score": 29,
+    "alignment_score_average": 3.62,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 3,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 5,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 3,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 3
+    },
+    "why_it_aligns_with_me": "Kosh aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations",
+      "Docker"
+    ],
+    "what_i_can_learn": [
+      "payment/compliance primitives",
+      "financial workflow ops",
+      "trust-sensitive product design",
+      "AI product evaluation"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Kosh execution loop.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Kosh."
+    ],
+    "risks_or_unknowns": [
+      "Public content may not reveal internal roadmap, maturity, or technical constraints."
+    ],
+    "evidence_from_bwe_content": "Problem: Small business owners often struggle with manual bookkeeping, leading to uncertainty about daily profits and lack of formal records for bank loans. | ICP: Micro-business owners in India, such as kirana store operators, cafe owners, and salon proprietors, who lack formal bookkeeping systems and seek a quick, mobile-first solution to track daily finances and improve access to credit. | Public evidence count: 0 blogs, 1 case studies, 24 related pages",
+    "source_url": "https://bwestudios.com/ventures/kosh",
+    "rank": 53
+  },
+  {
+    "venture_name": "Krew",
+    "sector": "Consumer & Lifestyle",
+    "product_type": "Other",
+    "alignment_score": 27,
+    "alignment_score_average": 3.38,
+    "criteria_scores": {
+      "ai_agentic_workflow_relevance": 3,
+      "full_stack_product_building_relevance": 2,
+      "automation_workflow_relevance": 2,
+      "technical_learning_opportunity": 3,
+      "product_venture_building_relevance": 5,
+      "personal_interest_fit": 3,
+      "clarity_of_problem_and_icp": 5,
+      "evidence_available_from_bwe_content": 4
+    },
+    "why_it_aligns_with_me": "Krew aligns because it sits at the intersection of product execution and practical software building. The public description shows a clearer-than-average problem, ICP, and product wedge.",
+    "skills_i_can_apply": [
+      "Python",
+      "LangGraph",
+      "RAG systems",
+      "local AI tools",
+      "API integrations"
+    ],
+    "what_i_can_learn": [
+      "AI product evaluation",
+      "agent reliability",
+      "human-in-the-loop workflow design"
+    ],
+    "possible_contribution_ideas": [
+      "Prototype an AI workflow or copilot surface that sharpens the core Krew execution loop.",
+      "Turn scraped market or user evidence into tighter product requirements and iteration ideas for Krew."
+    ],
+    "risks_or_unknowns": [
+      "Technology stack is not clearly described in the public content."
+    ],
+    "evidence_from_bwe_content": "Problem: Planning group nightlife activities is plagued by issues like the 'who pays?' problem (someone fronts large amounts, leading to cash flow burden and messy splitting), the 'where?' problem (decision paralysis through lengthy group chats), the 'no-show' problem (low attendance despite commitments, leading to wasted money), and 'settlement hell' (multiple transactions, IOUs, and potential friendship tension over money). | ICP: Young adults and social groups aged 18-35 who frequently plan group outings for nightlife and entertainment, struggling with coordination, payment splitting, and venue selection. | Public evidence count: 1 blogs, 1 case studies, 3 related pages",
+    "source_url": "https://bwestudios.com/ventures/krew",
+    "rank": 54
+  }
+]

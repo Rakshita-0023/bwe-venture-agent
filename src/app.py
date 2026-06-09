@@ -8,7 +8,7 @@ import pandas as pd
 import streamlit as st
 
 from analyst import run_ask
-from config import BLOGS_PATH, PAGES_PATH, REPORT_FILES, VENTURES_PATH
+from config import BLOGS_PATH, PAGES_PATH, PERSONAL_ALIGNMENT_PATH, REPORT_FILES, VENTURES_PATH
 from utils import load_json
 
 
@@ -686,6 +686,16 @@ def _load_report(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else "Report not generated yet."
 
 
+@st.cache_data
+def _load_alignment() -> list[dict]:
+    return load_json(PERSONAL_ALIGNMENT_PATH, [])
+
+
+@st.cache_data
+def _cached_agent_answer(question: str, voice: str = "normal") -> str:
+    return run_ask(question, voice=voice)
+
+
 def _html_metric_card(index: str, label: str, value: str, note: str) -> str:
     return f"""
     <div class="metric-card">
@@ -910,18 +920,54 @@ def _render_overview_memo(report_text: str) -> None:
         st.markdown("</div></div>", unsafe_allow_html=True)
 
 
+def _render_alignment_card(item: dict) -> None:
+    st.markdown(
+        f"""
+        <div class="venture-card">
+            <div class="card-header-row">
+                <div>
+                    <div class="card-kicker">Rank #{html.escape(str(item.get('rank', 'unknown')))} · {html.escape(_safe_value(item.get('sector')))}</div>
+                    <div class="card-title">{html.escape(_safe_value(item.get('venture_name')))}</div>
+                </div>
+                <div class="tag">{html.escape(str(item.get('alignment_score', 'unknown')))} / 40</div>
+            </div>
+            <div class="card-muted">{html.escape(_safe_value(item.get('why_it_aligns_with_me')))}</div>
+            <div class="tag-wrap">
+                <span class="tag">Skills: {html.escape(", ".join(item.get('skills_i_can_apply', [])[:4]) or 'unknown')}</span>
+                <span class="tag">Learn: {html.escape(", ".join(item.get('what_i_can_learn', [])[:3]) or 'unknown')}</span>
+            </div>
+            {_html_link(_safe_value(item.get('source_url')), 'Open Venture Source')}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    with st.expander(f"Open personal fit brief: {_safe_value(item.get('venture_name'))}"):
+        st.write(f"Alignment score: {_safe_value(item.get('alignment_score'))}/40 ({_safe_value(item.get('alignment_score_average'))}/5)")
+        st.write(f"Why it fits me: {_safe_value(item.get('why_it_aligns_with_me'))}")
+        st.write(f"Skills I can apply: {', '.join(item.get('skills_i_can_apply', [])) or 'unknown'}")
+        st.write(f"What I can learn: {', '.join(item.get('what_i_can_learn', [])) or 'unknown'}")
+        st.write(f"Possible contribution ideas: {', '.join(item.get('possible_contribution_ideas', [])) or 'unknown'}")
+        st.write(f"Risks / Unknowns: {', '.join(item.get('risks_or_unknowns', [])) or 'unknown'}")
+        st.write(f"Evidence from BWE content: {_safe_value(item.get('evidence_from_bwe_content'))}")
+
+
 def main() -> None:
     ventures = _load_ventures()
     blogs = _load_blogs()
     pages = _load_pages()
+    alignment = _load_alignment()
 
     case_study_count = sum(1 for page in pages if page.get("page_type") == "case_study")
-    report_count = 4
+    report_count = len(REPORT_FILES)
 
     if "ask_question" not in st.session_state:
         st.session_state.ask_question = ""
     if "last_answer" not in st.session_state:
         st.session_state.last_answer = ""
+    if "voice_question" not in st.session_state:
+        st.session_state.voice_question = "What product thesis fits BWE best?"
+    if "voice_answer" not in st.session_state:
+        st.session_state.voice_answer = ""
 
     st.markdown(
         """
@@ -975,8 +1021,8 @@ def main() -> None:
     with m4:
         st.markdown(_html_metric_card("04", "Strategy Reports", str(report_count), "Overview, venture list, blog intelligence, and product thesis outputs."), unsafe_allow_html=True)
 
-    overview_tab, ventures_tab, blogs_tab, ask_tab, thesis_tab = st.tabs(
-        ["Overview", "Ventures", "Blog Intelligence", "Ask Agent", "Product Thesis"]
+    overview_tab, ventures_tab, blogs_tab, ask_tab, fit_tab, thesis_tab, voice_tab = st.tabs(
+        ["Overview", "Ventures", "Blog Intelligence", "Ask Agent", "My Venture Fit", "Product Thesis", "BWE Voice Mode"]
     )
 
     with overview_tab:
@@ -1213,6 +1259,39 @@ def main() -> None:
         if st.session_state.last_answer:
             _render_answer(st.session_state.last_answer)
 
+    with fit_tab:
+        _section_header(
+            "My Venture Fit",
+            "Personal Venture Alignment",
+            "A personal-fit layer built from your profile and the extracted BWE venture set. This is a personal alignment analysis, not an official BWE ranking.",
+        )
+        if not alignment:
+            st.markdown(
+                """
+                <div class="section-card">
+                    <div class="section-kicker">Alignment Missing</div>
+                    <div class="card-title">Run the alignment report first</div>
+                    <div class="card-muted">Generate `data/reports/personal_venture_alignment.md` and `data/processed/personal_alignment.json` with `python src/cli.py align`.</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+        else:
+            top_alignment = alignment[:5]
+            st.markdown(
+                """
+                <div class="report-note">
+                    This tab reflects a personal-fit analysis grounded in the extracted venture data. It is meant to surface where your AI, full-stack, product, and automation skill set can be most useful.
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+            for item in top_alignment:
+                _render_alignment_card(item)
+
+            with st.expander("Full alignment dataset"):
+                st.dataframe(pd.DataFrame(alignment), width="stretch", hide_index=True)
+
     with thesis_tab:
         _section_header(
             "Product Thesis",
@@ -1230,6 +1309,54 @@ def main() -> None:
         st.markdown('<div class="section-card">', unsafe_allow_html=True)
         st.markdown(_load_report(REPORT_FILES["thesis"]))
         st.markdown("</div>", unsafe_allow_html=True)
+
+    with voice_tab:
+        _section_header(
+            "BWE Voice Mode",
+            "BWE Voice / Style Extraction",
+            "See the extracted writing patterns, compare a normal answer to a BWE-style answer, and ask grounded questions in BWE voice mode.",
+        )
+        st.markdown(
+            """
+            <div class="report-note">
+                BWE voice mode keeps claims grounded in scraped content, then rewrites the answer in a sharper venture-studio style using the local style guide.
+                <br><br>
+                This is not model weight fine-tuning. This is a local style-adaptation layer based on extracted BWE writing patterns.
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        st.markdown('<div class="section-card">', unsafe_allow_html=True)
+        st.markdown(_load_report(REPORT_FILES["style_guide"]))
+        st.markdown("</div>", unsafe_allow_html=True)
+
+        example_question = "What product thesis fits BWE best?"
+        left, right = st.columns(2)
+        with left:
+            st.markdown("#### Example Normal Answer")
+            st.caption("Plain grounded answer: factual, direct, and source-led.")
+            _render_answer(_cached_agent_answer(example_question, "normal"))
+        with right:
+            st.markdown("#### Example BWE-style Answer")
+            st.caption("Sharper BWE-inspired answer: thesis-led, market-friction-first, and still grounded in the same evidence.")
+            _render_answer(_cached_agent_answer(example_question, "bwe"))
+
+        st.markdown("#### Ask in BWE-style mode")
+        voice_question = st.text_area(
+            "BWE-style question",
+            key="voice_question",
+            placeholder="Ask for a grounded answer in BWE-aligned strategic voice...",
+            height=132,
+        )
+        if st.button("Ask in BWE Voice", type="primary", key="voice_mode_button", width="content"):
+            if not voice_question.strip():
+                st.warning("Enter a question first.")
+            else:
+                with st.spinner("Generating grounded answer in BWE voice mode..."):
+                    st.session_state.voice_answer = run_ask(voice_question, voice="bwe")
+
+        if st.session_state.voice_answer:
+            _render_answer(st.session_state.voice_answer)
 
     st.markdown(
         """
