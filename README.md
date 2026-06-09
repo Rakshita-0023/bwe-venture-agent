@@ -2,6 +2,26 @@
 
 Local-first AI research system for Bold World Engineering / BWE Studio. It crawls the public website, extracts ventures and blog-style insights, builds a local knowledge base, answers grounded questions with Ollama, and generates thesis reports for product-fit exploration.
 
+## Quickstart
+
+```bash
+cd /Users/polana.rakshita2024nstrishihood.edu.in/Documents/bwe-venture-agent
+
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+ollama serve
+ollama pull llama3.1
+ollama pull nomic-embed-text
+
+python src/cli.py crawl
+python src/cli.py analyse
+python src/cli.py build-kb
+python src/cli.py ask "What does Bold World Engineering do?"
+streamlit run src/app.py
+```
+
 ## What It Does
 
 - Crawls public BWE pages and stores clean page data locally
@@ -53,6 +73,7 @@ bwe-venture-agent/
 Python `3.12` is recommended for the smoothest dependency install.
 
 ```bash
+cd /Users/polana.rakshita2024nstrishihood.edu.in/Documents/bwe-venture-agent
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -88,7 +109,7 @@ python src/cli.py analyse
 python src/cli.py build-kb
 python src/cli.py ask "What does Bold World Engineering do?"
 python src/cli.py ask "What ventures are listed?"
-streamlit run src/app.py
+streamlit run src/app.py --server.address 127.0.0.1 --server.port 8501
 ```
 
 On the latest verified run for this project, Ollama used:
@@ -120,6 +141,10 @@ The Streamlit dashboard includes:
 - `Product Fit and Thesis`
 
 The Ask section loads the existing local knowledge-base logic and returns grounded answers with sources.
+
+Open locally at:
+
+- [http://127.0.0.1:8501](http://127.0.0.1:8501)
 
 ## Output Files
 
@@ -165,3 +190,22 @@ After a full successful run, the project generates:
 ## Demo Explanation
 
 This project is a local-first AI venture intelligence agent for BWE Studio. It scrapes public BWE content, extracts ventures and insights, builds a local knowledge base with ChromaDB and LlamaIndex, answers grounded questions through Ollama, and generates product-fit and thesis reports in a Streamlit dashboard.
+
+## Demo Flow
+
+Use this flow for HR, mentor, or internship demos:
+
+1. Open the dashboard and start on the hero + metric cards.
+2. Show `Overview` as the executive briefing layer.
+3. Show `Ventures` and filter by sector or product type.
+4. Show `Blog Intelligence` to demonstrate market/theme extraction.
+5. Spend most of the demo in `Ask Agent`.
+6. Finish with `Product Thesis` to show strategy output.
+
+Suggested questions:
+
+- `What does Bold World Engineering do?`
+- `What ventures are listed?`
+- `Which venture looks most promising based on available content?`
+- `What sectors does BWE focus on?`
+- `What should BWE build next?`
