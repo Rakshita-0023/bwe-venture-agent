@@ -5,7 +5,7 @@ Local-first AI research system for Bold World Engineering / BWE Studio. It crawl
 ## Quickstart
 
 ```bash
-cd /Users/polana.rakshita2024nstrishihood.edu.in/Documents/bwe-venture-agent
+cd bwe-venture-agent
 
 python3.12 -m venv .venv
 source .venv/bin/activate
@@ -73,7 +73,7 @@ bwe-venture-agent/
 Python `3.12` is recommended for the smoothest dependency install.
 
 ```bash
-cd /Users/polana.rakshita2024nstrishihood.edu.in/Documents/bwe-venture-agent
+cd bwe-venture-agent
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
